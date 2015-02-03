@@ -14,25 +14,50 @@ a:hover {
   border-bottom: solid black 1px;
 }
 
+.headerbox {
+  border: 2px solid black;
+  padding: 2em 3em;
+  margin: 3em;
+}
+
 .logo {
-  float: left;
   font-family: 'Lora', serif;
   font-size: 3em;
   font-weight: 400;
   line-height: .9;
-}
-
-.headerbox {
-  border: 3px solid black;
-  padding: 3em;
-  width: 50%;
-  margin: 0 auto;
+  margin: 0;
+  text-align: center;
+  line-height: 1;
 }
 
 .tagline {
-  float: right;
-  width: 60%;
 }
+
+/*start wider screen*/
+@media screen and (min-width: 780px) {
+
+  .headerbox {
+    padding: 3em;
+    width: 50%;
+    margin: 3em auto;
+  }
+
+  .logo {
+    float: left;
+    font-size: 3em;
+    font-weight: 400;
+    line-height: .9;
+    margin: 0;
+    width: 50%;
+  }
+
+  .tagline {
+    float: right;
+    width: 50%;
+    margin: 0;
+  }
+
+
 
 /*
 * Clearfix: contain floats
