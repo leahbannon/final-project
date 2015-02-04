@@ -9,6 +9,11 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+}
+
 a:hover {
   padding-bottom: 1px;
   border-bottom: solid black 1px;
@@ -21,7 +26,6 @@ a:hover {
 }
 
 .logo {
-  font-family: 'Lora', serif;
   font-size: 3em;
   font-weight: 400;
   line-height: .9;
@@ -30,32 +34,63 @@ a:hover {
   line-height: 1;
 }
 
-.tagline {
+.box {
+  margin: 3em;
+  border-bottom: 2px solid black;
 }
+.box h2 {
+  margin: 0;
+}
+
+.image1 {
+  float: left;
+  margin: 0 1em 0 0;
+}
+.image2 {
+  float: right;
+  margin: 0 1em 0 0;
+}
+
+.about {
+  font-size: .8em;
+  margin: 0;
+}
+.date {
+  font-size: .8em;
+  margin: 0;
+}
+
 
 /*start wider screen*/
 @media screen and (min-width: 780px) {
 
-  .headerbox {
-    padding: 3em;
-    width: 50%;
-    margin: 3em auto;
-  }
+.headerbox {
+  padding: 3em;
+  width: 50%;
+  margin: 3em auto;
+}
 
-  .logo {
-    float: left;
-    font-size: 3em;
-    font-weight: 400;
-    line-height: .9;
-    margin: 0;
-    width: 50%;
-  }
+.logo {
+  float: left;
+  font-size: 3em;
+  font-weight: 400;
+  line-height: .9;
+  margin: 0;
+  width: 50%;
+}
 
-  .tagline {
-    float: right;
-    width: 50%;
-    margin: 0;
-  }
+.tagline {
+  float: right;
+  width: 50%;
+  margin: 0;
+}
+
+.box {
+  width: 50%;
+  margin: 0 auto;
+
+}
+
 
 
 
