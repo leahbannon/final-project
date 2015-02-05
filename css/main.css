@@ -5,13 +5,18 @@ body {
 }
 
 a {
-  color: black;
+  color: #5E4453;
   text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+  font-weight: 400;
 }
 
 a:hover {
   padding-bottom: 1px;
-  border-bottom: solid black 1px;
+  border-bottom: solid #5E4453 1px;
 }
 
 .headerbox {
@@ -19,9 +24,11 @@ a:hover {
   padding: 2em 3em;
   margin: 3em;
 }
+.headerbox a {
+  color: black;
+}
 
 .logo {
-  font-family: 'Lora', serif;
   font-size: 3em;
   font-weight: 400;
   line-height: .9;
@@ -30,34 +37,97 @@ a:hover {
   line-height: 1;
 }
 
-.tagline {
+.socialmedia {
+  margin: 0 auto;
 }
 
-/*start wider screen*/
+.box {
+  margin: 3em;
+  border-bottom: 2px solid black;
+}
+
+
+.image1 {
+  display: block;
+  margin: auto;
+}
+.image2 {
+  display: block;
+  margin: auto;
+  }
+
+.about {
+  font-size: .8em;
+  margin: 0;
+}
+.date {
+  font-size: .8em;
+  margin: 0;
+}
+
+/*first break of 3*/
+@media screen and (min-width: 450px) {
+
+.image1 {
+  float: left;
+  margin: 1em 1em 1em 0;
+}
+.image2 {
+  float: right;
+  margin: 1em 0 1em 1em;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*second break of 3*/
 @media screen and (min-width: 780px) {
 
-  .headerbox {
-    padding: 3em;
-    width: 50%;
-    margin: 3em auto;
-  }
+.headerbox {
+  padding: 3em;
+  width: 50%;
+  margin: 3em auto;
+}
 
-  .logo {
-    float: left;
-    font-size: 3em;
-    font-weight: 400;
-    line-height: .9;
-    margin: 0;
-    width: 50%;
-  }
+.logo {
+  float: left;
+  font-size: 3em;
+  font-weight: 400;
+  line-height: .9;
+  margin: 0;
+  width: 50%;
+}
 
-  .tagline {
-    float: right;
-    width: 50%;
-    margin: 0;
-  }
+.tagline {
+  float: right;
+  width: 50%;
+  margin: 0;
+}
 
+.box {
+  width: 50%;
+  margin: 0 auto;
 
+}
 
 /*
 * Clearfix: contain floats
