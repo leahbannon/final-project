@@ -1,3 +1,9 @@
+/*MOST NARROW MOST NARROW MOST NARROW MOST NARROW */
+/*MOST NARROW MOST NARROW MOST NARROW MOST NARROW */
+/*MOBILE FIRST: NARROW COLUMN UP TO 449 PIXELS*/
+/*MOST NARROW MOST NARROW MOST NARROW MOST NARROW */
+/*MOST NARROW MOST NARROW MOST NARROW MOST NARROW */
+
 body {
   background-color: #FFF;
   font-family: "Georgia";
@@ -22,7 +28,7 @@ a:hover {
 .headerbox {
   border: 2px solid black;
   padding: 2em 3em;
-  margin: 3em;
+  margin: 3em 3em 1em 3em;
 }
 .headerbox a {
   color: black;
@@ -39,13 +45,19 @@ a:hover {
 
 .socialmedia {
   margin: 0 auto;
+  padding-bottom: 1.5em;
+  text-align: center;
+  width: 50%;
+  font-size: 1.2em;
+}
+.socialmedia a {
+  color: black;
 }
 
 .box {
-  margin: 3em;
+  margin: 1em 3em 0 3em;
   border-bottom: 2px solid black;
 }
-
 
 .image1 {
   display: block;
@@ -54,18 +66,24 @@ a:hover {
 .image2 {
   display: block;
   margin: auto;
-  }
+}
 
 .about {
   font-size: .8em;
   margin: 0;
 }
+
 .date {
   font-size: .8em;
   margin: 0;
 }
 
-/*first break of 3*/
+/*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */
+/*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */
+/*TABLET SIZE: STARTS AT 450 PIXELS */
+/*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */
+/*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */
+
 @media screen and (min-width: 450px) {
 
 .image1 {
@@ -77,18 +95,6 @@ a:hover {
   margin: 1em 0 1em 1em;
 }
 
-/*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
-
 .clearfix:before,
 .clearfix:after {
   content: " "; /* 1 */
@@ -99,13 +105,20 @@ a:hover {
   clear: both;
 }
 
-/*second break of 3*/
+}
+
+/*WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE */
+/*WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE */
+/*WIDER SCREEN SIZE: STARTS AT 780 PIXELS */
+/*WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE */
+/*WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE WIDE */
+
 @media screen and (min-width: 780px) {
 
 .headerbox {
   padding: 3em;
   width: 50%;
-  margin: 3em auto;
+  margin: 1em auto;
 }
 
 .logo {
@@ -124,29 +137,8 @@ a:hover {
 }
 
 .box {
-  width: 50%;
   margin: 0 auto;
-
+  width: 50%;
 }
 
-/*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
-
-.clearfix:before,
-.clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-
-.clearfix:after {
-  clear: both;
 }
