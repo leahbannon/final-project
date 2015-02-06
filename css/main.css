@@ -142,3 +142,63 @@ a:hover {
 }
 
 }
+
+/*EXTRA LARGE EXTRA LARGE EXTRA LARGE EXTRA LARGE EXTRA LARGE */
+/*EXTRA LARGE EXTRA LARGE EXTRA LARGE EXTRA LARGE EXTRA LARGE */
+/*LARGEST SCREEN SIZE: STARTS AT 1300 PIXELS */
+/*EXTRA LARGE EXTRA LARGE EXTRA LARGE EXTRA LARGE EXTRA LARGE */
+/*EXTRA LARGE EXTRA LARGE EXTRA LARGE EXTRA LARGE EXTRA LARGE */
+
+@media screen and (min-width: 1300px) {
+
+  .hearderbox {
+    width: 45%;
+    float: left;
+    margin: 2em;
+  }
+
+  .logo {
+    padding-bottom: 5em;
+  }
+
+  .tagline {
+    float: none;
+  }
+
+  .socialmedia {
+    width: 45%;
+    float: left;
+  }
+
+  .box {
+    width: 15%;
+    float: left;
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*end*/
