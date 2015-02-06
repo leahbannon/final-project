@@ -45,8 +45,10 @@ a:hover {
 
 .socialmedia {
   margin: 0 auto;
+  padding-bottom: 1.5em;
   text-align: center;
   width: 50%;
+  font-size: 1.2em;
 }
 .socialmedia a {
   color: black;
