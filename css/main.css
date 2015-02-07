@@ -11,7 +11,9 @@ body {
 }
 
 a {
-  color: #5E4453;
+  color: black;
+  border-bottom: solid #5E4453 1px;
+  padding-bottom: 1px;
   text-decoration: none;
 }
 
@@ -21,17 +23,21 @@ h1, h2, h3, h4 {
 }
 
 a:hover {
-  padding-bottom: 1px;
-  border-bottom: solid #5E4453 1px;
+  color: #5E4453;
 }
 
 .headerbox {
   border: 2px solid black;
-  padding: 2em 3em;
-  margin: 3em 3em 1em 3em;
+  padding: 5%;
+  margin: 5%;
 }
 .headerbox a {
   color: black;
+  border: none;
+}
+.headerbox a:hover {
+  border-bottom: solid #5E4453 1px;
+  color: #5E4453;
 }
 
 .logo {
@@ -43,15 +49,20 @@ a:hover {
   line-height: 1;
 }
 
-.socialmedia {
+.awesomeicons {
   margin: 0 auto;
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
   text-align: center;
   width: 50%;
   font-size: 1.2em;
 }
-.socialmedia a {
+.awesomeicons a {
   color: black;
+  border: none;
+}
+.awesomeicons a:hover {
+  border-bottom: solid #5E4453 1px;
+  color: #5E4453;
 }
 
 .box {
@@ -76,6 +87,94 @@ a:hover {
 .date {
   font-size: .8em;
   margin: 0;
+}
+
+.fa {
+  margin: 10px;
+}
+
+.footer {
+  margin-bottom: 30em;
+}
+
+/* ============================================================
+PARALLAX
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+/*
+section.module h2 {
+margin-bottom: 40px;
+font-family: "Roboto Slab", serif;
+font-size: 30px;
+}*/
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 4em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../images/hardlystrictly.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../images/skylineladies.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../images/girlonastoop.jpg");
+}
+section.module.parallax-4 {
+  background-image: url("../images/stbarths.jpg");
+}
+
+.module ol li {
+  display: list-item;
+  list-style-type:decimal;
+}
+
+.parallax-advice {
+  margin: 0 auto;
+  }
+
+
+/*SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  */
+/*SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  */
+/*TABLET SIZE: STARTS AT 360 PIXELS */
+/*SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  */
+/*SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  */
+
+@media screen and (min-width: 360px) {
+
+.headerbox {
+  border: 2px solid black;
+  padding: 2em 3em;
+  margin: 3em 3em 1em 3em;
+}
+
 }
 
 /*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */
@@ -138,6 +237,10 @@ a:hover {
 
 .box {
   margin: 0 auto;
+  width: 50%;
+}
+
+.parallax-advice {
   width: 50%;
 }
 
