@@ -109,14 +109,7 @@ margin-bottom: 40px;
 font-family: "Roboto Slab", serif;
 font-size: 30px;
 }*/
-section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
-}
-section.module p:last-child {
-  margin-bottom: 0;
-}
+
 section.module.content {
   padding: 40px 0;
 }
