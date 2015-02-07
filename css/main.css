@@ -28,8 +28,8 @@ a:hover {
 
 .headerbox {
   border: 2px solid black;
-  padding: 2em 3em;
-  margin: 3em 3em 1em 3em;
+  padding: 5%;
+  margin: 5%;
 }
 .headerbox a {
   color: black;
@@ -64,7 +64,6 @@ a:hover {
   border-bottom: solid #5E4453 1px;
   color: #5E4453;
 }
-
 
 .box {
   margin: 1em 3em 0 3em;
@@ -134,9 +133,9 @@ section.module.parallax {
 section.module.parallax h1 {
   color: white;
   font-size: 48px;
-  line-height: 600px;
   font-weight: 700;
   text-align: center;
+  padding-top: 4em;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
@@ -160,6 +159,23 @@ section.module.parallax-4 {
 .parallax-advice {
   margin: 0 auto;
   }
+
+
+/*SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  */
+/*SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  */
+/*TABLET SIZE: STARTS AT 360 PIXELS */
+/*SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  */
+/*SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  SMALL  */
+
+@media screen and (min-width: 360px) {
+
+.headerbox {
+  border: 2px solid black;
+  padding: 2em 3em;
+  margin: 3em 3em 1em 3em;
+}
+
+}
 
 /*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */
 /*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */
