@@ -98,6 +98,69 @@ a:hover {
   margin-bottom: 30em;
 }
 
+/* ============================================================
+PARALLAX
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+/*
+section.module h2 {
+margin-bottom: 40px;
+font-family: "Roboto Slab", serif;
+font-size: 30px;
+}*/
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../images/hardlystrictly.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../images/skylineladies.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../images/girlonastoop.jpg");
+}
+section.module.parallax-4 {
+  background-image: url("../images/stbarths.jpg");
+}
+
+.module ol li {
+  display: list-item;
+  list-style-type:decimal;
+}
+
+.parallax-advice {
+  margin: 0 auto;
+  }
+
 /*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */
 /*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */
 /*TABLET SIZE: STARTS AT 450 PIXELS */
@@ -158,6 +221,10 @@ a:hover {
 
 .box {
   margin: 0 auto;
+  width: 50%;
+}
+
+.parallax-advice {
   width: 50%;
 }
 
