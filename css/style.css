@@ -4,11 +4,12 @@
 section.module:last-child {
   margin-bottom: 0;
 }
+/*
 section.module h2 {
   margin-bottom: 40px;
   font-family: "Roboto Slab", serif;
   font-size: 30px;
-}
+}*/
 section.module p {
   margin-bottom: 40px;
   font-size: 16px;
@@ -31,16 +32,15 @@ section.module.parallax {
   background-size: cover;
 }
 section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   font-size: 48px;
   line-height: 600px;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../img/demo/_small/1.jpg");
+  background-image: url("../images/hardlystrictly.jpg");
 }
 section.module.parallax-2 {
   background-image: url("../img/demo/_small/2.jpg");
@@ -48,7 +48,7 @@ section.module.parallax-2 {
 section.module.parallax-3 {
   background-image: url("../img/demo/_small/3.jpg");
 }
-
+/*
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 42px;
@@ -56,7 +56,8 @@ section.module.parallax-3 {
   section.module p {
     font-size: 20px;
   }
-  section.module.parallax h1 {
+
+section.module.parallax h1 {
     font-size: 96px;
   }
 }
@@ -65,3 +66,4 @@ section.module.parallax-3 {
     font-size: 160px;
   }
 }
+*/
