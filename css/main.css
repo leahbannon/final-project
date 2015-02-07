@@ -11,7 +11,9 @@ body {
 }
 
 a {
-  color: #5E4453;
+  color: black;
+  border-bottom: solid #5E4453 1px;
+  padding-bottom: 1px;
   text-decoration: none;
 }
 
@@ -21,8 +23,7 @@ h1, h2, h3, h4 {
 }
 
 a:hover {
-  padding-bottom: 1px;
-  border-bottom: solid #5E4453 1px;
+  color: #5E4453;
 }
 
 .headerbox {
@@ -32,6 +33,11 @@ a:hover {
 }
 .headerbox a {
   color: black;
+  border: none;
+}
+.headerbox a:hover {
+  border-bottom: solid #5E4453 1px;
+  color: #5E4453;
 }
 
 .logo {
@@ -43,16 +49,22 @@ a:hover {
   line-height: 1;
 }
 
-.socialmedia {
+.awesomeicons {
   margin: 0 auto;
-  padding-bottom: 1.5em;
+  padding-bottom: 1em;
   text-align: center;
   width: 50%;
   font-size: 1.2em;
 }
-.socialmedia a {
+.awesomeicons a {
   color: black;
+  border: none;
 }
+.awesomeicons a:hover {
+  border-bottom: solid #5E4453 1px;
+  color: #5E4453;
+}
+
 
 .box {
   margin: 1em 3em 0 3em;
@@ -76,6 +88,10 @@ a:hover {
 .date {
   font-size: .8em;
   margin: 0;
+}
+
+.fa {
+  margin: 10px;
 }
 
 /*MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE MIDDLE */

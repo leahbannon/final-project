@@ -10,6 +10,20 @@
     <link rel="stylesheet" href="css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>  window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('.tooltip').tooltipster({
+        position: 'bottom',
+      }
+      );
+    });
+    </script>
   </head>
 
   <body>
@@ -25,12 +39,12 @@
       <p class="tagline">civil servant and product manager at <a href="https://18f.gsa.gov">18F</a>, <a href="http://codefordc.org">Code for DC</a> captain, <a href="http://techladyhackathon.org">Tech Lady Hackathons</a> organizer, cat and plant owner, currently working on immigration</p>
     </header>
 
-    <div class="socialmedia">
-      <a href="https://twitter.com/leahbannon"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/leahbannon"><i class="fa fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="http://pinterest.com/leahbannon"><i class="fa fa-pinterest-p"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="http://instagram.com/leahbannon"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://www.instapaper.com/p/leahbannon"><i class="fa fa-bookmark" alt="instapaper"></i></a>
+    <div class="awesomeicons">
+      <a href="https://twitter.com/leahbannon"><span class="fa fa-twitter"></span></a>
+      <a href="https://github.com/leahbannon"><span class="fa fa-github"></span></a>
+      <a href="http://pinterest.com/leahbannon"><span class="fa fa-pinterest-p"></span></a>
+      <a href="http://instagram.com/leahbannon"><span class="fa fa-instagram"></span></a>
+      <a href="https://www.instapaper.com/p/leahbannon"><span class="fa fa-bookmark" alt="instapaper"></span></a>
     </div>
 
     <div>
@@ -38,7 +52,7 @@
         <img class="image1" src="images/techladyhackathon1.jpeg" width=200px alt="a hackathon full of women">
         <h2>Tech Lady Hackathon News</h2>
         <p>I created this newsletter after organizing the first <a href="http://techladyhackathon.org">Tech Lady Hackathon</a> to keep growing the community. I send out bimonthly(ish) updates about DC tech events, awesome tech training, women in tech opportunities, the next Tech Lady Hackathon, feminism in tech, and me.</p>
-        <p>Check out my latest post, <strong><a href="http://us3.campaign-archive1.com/?u=fa2fbc8ac3f779641e2b044f7&id=90a2a1121a">Happy New Year. Now go learn to code.</a></strong> Or just <a href="http://techladyhackathon.org/newsletter">subscribe to the email newsletter</a>.</p>
+        <p>Check out my latest post, <a href="http://us3.campaign-archive1.com/?u=fa2fbc8ac3f779641e2b044f7&id=90a2a1121a">Happy New Year. Now go learn to code.</a> Or just <a href="http://techladyhackathon.org/newsletter">subscribe to the email newsletter</a>.</p>
       </section>
       <section class="box clearfix">
       <img class="image2"src="images/codefordc.jpg" width="200px" alt="civic hackers on laptops at code for dc">
@@ -49,24 +63,22 @@
       <section class="box clearfix">
         <a href="http://www.npr.org/blogs/alltechconsidered/2015/01/28/382178574/remaking-the-u-s-governments-online-image-one-website-at-a-time"><img class="image1"src="images/photoof18fcopyrightnpr.png" width="200px" alt="leah bannon working at 18f office photo copyright National Public Radio"></a>
         <h2>18F</h2>
-        <p>This is my actual job. I'm a product manager at 18F. I've worked on <a href="https://fbopen.gsa.gov">FBOpen</a>, the 18F <a href="https://18f.gsa.gov/dashboard">Dashboard</a>, and other projects.</p>
+        <p>This is my actual job. I'm a product manager at 18F. I've worked on <a href="https://fbopen.gsa.gov">FBOpen</a>, the <a href="https://18f.gsa.gov/dashboard">18F Dashboard</a>, <a href="https://18f.gsa.gov/dashboard/project/uscis/">immigration</a>, and other projects.</p>
         </section>
     </div>
 
-    <div class="socialmedia">
+    <div class="awesomeicons">
       <p>Some random projects of mine...</p>
-      <a href="https://data.hiphop" alt="data dot hiphop"><i class="fa fa-music"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/leahbannon/dc-bars-sans-tv/blob/master/bars.geojson"><i class="fa fa-map-marker"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="https://github.com/leahbannon/gifs" alt="gifs I made"><i class="fa fa-picture-o"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://shannonvturner.com/art/mash" alt="an art game that I helped build"><i class="fa fa-gamepad"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://twitter.com/ifgovthenthat" alt="if gov then that"><i class="fa fa-rocket"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://twitter.com/newgovrepos" alt="new gov repos on github"><i class="fa fa-code-fork"></i></a>
+      <a href="https://data.hiphop" class="tooltip" title="almost as cool as data.gov: data.hiphop"><span class="fa fa-music"></span></a>
+      <a href="https://github.com/leahbannon/dc-bars-sans-tv/blob/master/bars.geojson" class="tooltip" title="dc bars with no TVs"><span class="fa fa-map-marker"></span></a>
+      <a href="https://github.com/leahbannon/gifs" class="tooltip" title="gifs I made"><span class="fa fa-picture-o"></span></a>
+    <a href="http://shannonvturner.com/art/mash" class="tooltip" title="an art game I helped build"><span class="fa fa-gamepad"></span></a>
+    <a href="https://twitter.com/ifgovthenthat" class="tooltip" title="if gov then that"><span class="fa fa-rocket"></span></a>
+    <a href="https://twitter.com/newgovrepos" class="tooltip" title="new gov repos on github"><span class="fa fa-code-fork"></span></a>
   </div>
 
     <!-- /container -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script>  window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-    <script src="js/main.js"></script>
+
 
   </body>
 
