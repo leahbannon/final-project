@@ -99,6 +99,11 @@ a:hover {
 /* ============================================================
 PARALLAX
 ============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 section.module:last-child {
   margin-bottom: 0;
 }
