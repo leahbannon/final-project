@@ -69,6 +69,10 @@ a:hover {
   border-bottom: 2px solid black;
 }
 
+.tagline {
+  text-align: center;
+}
+
 .image1 {
   display: block;
   margin: auto;
@@ -93,11 +97,11 @@ a:hover {
 }
 
 .footer {
-  margin-bottom: 30em;
+  margin-bottom: 10em;
 }
 
 .advice img {
-  width: 90%
+  width: 100%
 }
 
 
@@ -175,8 +179,8 @@ a:hover {
 
 .tagline {
   float: right;
-  width: 50%;
   margin: 0;
+  width: 50%;
 }
 
 .box {
