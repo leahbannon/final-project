@@ -39,6 +39,9 @@ a:hover {
   border-bottom: solid #5E4453 1px;
   color: #5E4453;
 }
+.headerbox h1 a:hover {
+  border-bottom: none;
+}
 
 .logo {
   font-size: 3em;
